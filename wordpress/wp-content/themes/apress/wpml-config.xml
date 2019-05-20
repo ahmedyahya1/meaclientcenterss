@@ -1,0 +1,31 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">zt_portfolio</custom-type>
+    <custom-type translate="1">zt_testimonial</custom-type>
+    <custom-type translate="1">zt_team</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">catportfolio</taxonomy>
+    <taxonomy translate="1">catteam</taxonomy>
+  </taxonomies>
+  <admin-texts>
+	<key name="apress_data">
+		<key name="header_phone_number" />
+		<key name="header_fax_number" />
+		<key name="header_email" />
+		<key name="header_tagline" />
+		<key name="header_working_hours" />
+		<key name="header_address" />
+		<key name="header_ad_section" />
+		<key name="header_html_text1" />
+		<key name="header_html_text2" />
+		<key name="header_html_text2" />
+		<key name="header_html_text3" />
+		<key name="special_button_text" />
+		<key name="header_special_button2" />
+		<key name="copyright_text" />		
+		<key name="blog_title" />
+		<key name="post_continue_reading_modify" />
+	</key> 
+</admin-texts>
+</wpml-config>

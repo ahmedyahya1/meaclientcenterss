@@ -1,0 +1,10 @@
+2019-05-12T11:08:35+00:00 CRITICAL Uncaught Error: Class 'WP_Privacy_Policy_Content' not found in /home/vcap/app/htdocs/wordpress/wp-admin/includes/plugin.php:1961
+Stack trace:
+#0 /home/vcap/app/htdocs/wordpress/wp-content/plugins/everest-forms/includes/class-evf-privacy.php(31): wp_add_privacy_policy_content('Everest Forms', '\n\t\t\t<div conten...')
+#1 /home/vcap/app/htdocs/wordpress/wp-includes/class-wp-hook.php(286): EVF_Privacy->add_privacy_message('')
+#2 /home/vcap/app/htdocs/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/vcap/app/htdocs/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/vcap/app/htdocs/wordpress/wp-admin/admin-ajax.php(44): do_action('admin_init')
+#5 {main}
+  thrown
+

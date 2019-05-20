@@ -1,0 +1,145 @@
+0000.010 () Opened log file at time: Mon, 20 May 2019 07:36:50 +0000 on http://localhost/MEACLIENTCENTERS
+0000.011 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.7 WP: 5.1.1 PHP: 7.2.14 (apache2handler, Windows NT DESKTOP-5H0FKM1 10.0 build 17763 (Windows 10) AMD64) MySQL: 5.7.24 WPLANG: en_US Server: Apache/2.4.37 (Win64) PHP/7.2.14 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4M | 4M) multisite: N openssl: OpenSSL 1.1.1a  20 Nov 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.011 () Free space on disk containing Updraft's temporary directory: 51057.7 MB
+0000.046 () Restore job started. Entities to restore: themes, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.078 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.085 () Entity: db
+0000.085 () restore_backup(backup_file=backup_2019-05-16-1342_MEA_Client_Centers_a1ecffe77213-db.gz, type=db, info=a:0:{}, last_one=)
+0000.086 () Unpacking backup... (backup_2019-05-16-1342_MEA_Client_Centers_a1ecffe77213-db.gz, 0.6 Mb)
+0000.099 () Database successfully unpacked
+0000.102 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.103 () Using direct MySQL access; value of use_mysqli is: 1
+0000.140 () Max packet size: 32 MB
+0000.141 () Entering maintenance mode
+0000.141 () Enabling Maintenance mode&#8230;
+0000.152 () Backup of: https://meaclientcenters.w3ibm.mybluemix.net/wordpress
+0000.225 () Site home: https://meaclientcenters.w3ibm.mybluemix.net
+0000.225 () Content URL: https://meaclientcenters.w3ibm.mybluemix.net/wordpress/wp-content
+0000.226 () Uploads URL: https://meaclientcenters.w3ibm.mybluemix.net/wordpress/wp-content/uploads
+0000.226 () Old table prefix: wp_
+0000.226 () Site information: multisite=0
+0000.228 () New table prefix: wp_
+0000.264 () Processing table (InnoDB): wp_options
+0000.643 () Restoring prior UD configuration (table: wp_options; keys: 94)
+0001.209 () Processing table (InnoDB): wp_users
+0001.275 () Processing table (InnoDB): wp_usermeta
+0001.349 () Processing table (InnoDB): wp_commentmeta
+0001.411 () Processing table (InnoDB): wp_comments
+0001.465 () Processing table (InnoDB): wp_evf_entrymeta
+0001.567 () Processing table (InnoDB): wp_links
+0001.622 () Processing table (InnoDB): wp_postmeta
+0002.432 () Processing table (InnoDB): wp_posts
+0002.753 () Processing table (InnoDB): wp_term_relationships
+0002.830 () Processing table (InnoDB): wp_term_taxonomy
+0002.886 () Database queries processed: 50 in 2.78 seconds
+0002.904 () Processing table (InnoDB): wp_termmeta
+0003.110 () Processing table (InnoDB): wp_terms
+0003.158 () Processing table (InnoDB): wp_GDFormAddressFieldOptions
+0003.213 () Processing table (InnoDB): wp_GDFormCaptchas
+0003.265 () Processing table (InnoDB): wp_GDFormFieldOptions
+0003.305 () Processing table (InnoDB): wp_GDFormFieldTypes
+0003.345 () Processing table (InnoDB): wp_GDFormFields
+0003.400 () Processing table (InnoDB): wp_GDFormForms
+0003.460 () Processing table (InnoDB): wp_GDFormLabelPositions
+0003.510 () Processing table (InnoDB): wp_GDFormOnsubmitActions
+0003.552 () Processing table (InnoDB): wp_GDFormSettings
+0003.595 () Processing table (InnoDB): wp_GDFormSubmissionFields
+0003.652 () Processing table (InnoDB): wp_GDFormSubmissions
+0003.698 () Processing table (InnoDB): wp_GDFormThemes
+0003.760 () Processing table (InnoDB): wp_alm
+0003.810 () Processing table (MyISAM): wp_elfsight_contact_form_widgets
+0003.841 () Processing table (InnoDB): wp_evf_entries
+0003.910 () Processing table (InnoDB): wp_evf_sessions
+0003.989 () Processing table (InnoDB): wp_ic_compressed
+0004.066 () Database queries processed: 100 in 3.96 seconds
+0004.068 () Processing table (InnoDB): wp_ic_log
+0004.112 () Processing table (InnoDB): wp_ic_queue
+0004.164 () Processing table (InnoDB): wp_ic_stats
+0004.221 () Processing table (InnoDB): wp_ms_snippets
+0004.276 () Processing table (InnoDB): wp_nextend2_image_storage
+0004.337 () Processing table (InnoDB): wp_nextend2_section_storage
+0004.422 () Processing table (InnoDB): wp_nextend2_smartslider3_generators
+0004.477 () Processing table (InnoDB): wp_nextend2_smartslider3_sliders
+0004.544 () Processing table (InnoDB): wp_nextend2_smartslider3_sliders_xref
+0004.602 () Processing table (InnoDB): wp_nextend2_smartslider3_slides
+0004.650 () Processing table (InnoDB): wp_revslider_css
+0004.736 () Processing table (InnoDB): wp_revslider_layer_animations
+0004.784 () Processing table (InnoDB): wp_revslider_navigations
+0004.829 () Processing table (InnoDB): wp_revslider_sliders
+0004.889 () Processing table (InnoDB): wp_revslider_slides
+0004.942 () Processing table (InnoDB): wp_revslider_static_slides
+0005.008 () Processing table (InnoDB): wp_search_filter_cache
+0005.089 () Processing table (InnoDB): wp_search_filter_term_results
+0005.141 () Processing table (InnoDB): wp_sfm_items
+0005.196 () Processing table (InnoDB): wp_sfm_links
+0005.236 () Database queries processed: 150 in 5.13 seconds
+0005.238 () Processing table (InnoDB): wp_sfm_settings
+0005.293 () Processing table (InnoDB): wp_sfm_steps
+0005.374 () Processing table (InnoDB): wp_sim_wp_maps
+0005.439 () Processing table (InnoDB): wp_sim_wp_maps_data
+0005.503 () Processing table (InnoDB): wp_sim_wp_setting
+0005.566 () Processing table (InnoDB): wp_smush_dir_images
+0005.630 () Processing table (InnoDB): wp_snippets
+0005.677 () Processing table (InnoDB): wp_tm_taskmeta
+0005.723 () Processing table (InnoDB): wp_tm_tasks
+0005.770 () Processing table (InnoDB): wp_watsonconv_actions
+0005.817 () Processing table (InnoDB): wp_watsonconv_contexts
+0005.865 () Processing table (InnoDB): wp_watsonconv_debug_log
+0005.930 () Processing table (InnoDB): wp_watsonconv_entities
+0005.973 () Processing table (InnoDB): wp_watsonconv_input_entities
+0006.012 () Processing table (InnoDB): wp_watsonconv_input_intents
+0006.068 () Processing table (InnoDB): wp_watsonconv_intents
+0006.113 () Processing table (InnoDB): wp_watsonconv_output_entities
+0006.156 () Processing table (InnoDB): wp_watsonconv_output_intents
+0006.197 () Processing table (InnoDB): wp_watsonconv_requests
+0006.243 () Processing table (InnoDB): wp_watsonconv_sessions
+0006.308 () Processing table (InnoDB): wp_watsonconv_task_runner_queue
+0006.366 () Processing table (InnoDB): wp_watsonconv_user_inputs
+0006.435 () Processing table (InnoDB): wp_watsonconv_watson_outputs
+0006.482 () Database queries processed: 200 in 6.37 seconds
+0006.484 () Processing table (InnoDB): wp_wc_download_log
+0006.530 () Processing table (InnoDB): wp_wc_webhooks
+0006.575 () Processing table (InnoDB): wp_woocommerce_api_keys
+0006.649 () Processing table (InnoDB): wp_woocommerce_attribute_taxonomies
+0006.699 () Processing table (InnoDB): wp_woocommerce_downloadable_product_permissions
+0006.755 () Processing table (InnoDB): wp_woocommerce_log
+0006.812 () Processing table (InnoDB): wp_woocommerce_order_itemmeta
+0006.866 () Processing table (InnoDB): wp_woocommerce_order_items
+0006.917 () Processing table (InnoDB): wp_woocommerce_payment_tokenmeta
+0006.978 () Processing table (InnoDB): wp_woocommerce_payment_tokens
+0007.026 () Processing table (InnoDB): wp_woocommerce_sessions
+0007.115 () Processing table (InnoDB): wp_woocommerce_shipping_zone_locations
+0007.169 () Processing table (InnoDB): wp_woocommerce_shipping_zone_methods
+0007.219 () Processing table (InnoDB): wp_woocommerce_shipping_zones
+0007.267 () Processing table (InnoDB): wp_woocommerce_tax_rate_locations
+0007.317 () Processing table (InnoDB): wp_woocommerce_tax_rates
+0007.409 () Processing table (InnoDB): wp_wow_fmp
+0007.459 () Processing table (InnoDB): wp_wpfm_backup
+0007.507 () Unlocking database and leaving maintenance mode
+0007.507 () Disabling Maintenance mode&#8230;
+0007.507 () Finished: lines processed: 243 in 7.40 seconds
+0007.508 () Cleaning up rubbish...
+0007.525 () Entity: themes
+0007.525 () restore_backup(backup_file=backup_2019-05-16-1342_MEA_Client_Centers_a1ecffe77213-themes.zip, type=themes, info=a:2:{s:4:"path";s:48:"C:\wamp64\www\MEACLIENTCENTERS/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0007.526 () Unpacking backup... (backup_2019-05-16-1342_MEA_Client_Centers_a1ecffe77213-themes.zip, 41.5 MB)
+0007.531 () Unzipping backup_2019-05-16-1342_MEA_Client_Centers_a1ecffe77213-themes.zip to C:/wamp64/www/MEACLIENTCENTERS/wp-content/upgrade/fcbc5829/ using UpdraftPlus_ZipArchive, starting index 0
+0019.918 () Unzip progress: 572 out of 572 files (46 MB, themes/twentysixteen/js/html5.js)
+0019.920 () Moving old data: filesystem method / updraft_dir is potentially possible
+0019.921 () Moving old data: can potentially use wp_filesystem method / -old
+0019.921 () Moving old data out of the way...
+0020.056 () Top-level entities being moved: index.php, postmagazine, twentyfifteen, twentynineteen, twentyseventeen, twentysixteen
+0020.066 () Moving unpacked backup into place...
+0020.222 () Top-level entities being moved: apress, index.php, twentynineteen, twentyseventeen, twentysixteen
+0020.232 () Cleaning up rubbish...
+0020.238 () Entity: others
+0020.238 () restore_backup(backup_file=backup_2019-05-16-1342_MEA_Client_Centers_a1ecffe77213-others.zip, type=others, info=a:2:{s:4:"path";s:41:"C:\wamp64\www\MEACLIENTCENTERS/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0020.239 () Unpacking backup... (backup_2019-05-16-1342_MEA_Client_Centers_a1ecffe77213-others.zip, 0 MB)
+0020.240 () Unzipping backup_2019-05-16-1342_MEA_Client_Centers_a1ecffe77213-others.zip to C:/wamp64/www/MEACLIENTCENTERS/wp-content/upgrade/15754690/ using UpdraftPlus_ZipArchive, starting index 0
+0020.284 () Unzip progress: 3 out of 3 files (5.5 KB, wp-cache-config.php)
+0020.289 () Cleaning up rubbish...
+0020.345 () Plugin path duplicate-page/duplicatepage.php not found: de-activating.
+0020.346 () Plugin path envato-elements/envato-elements.php not found: de-activating.
+0020.346 () Plugin path envato-market/envato-market.php not found: de-activating.
+0020.346 () Plugin path everest-forms/everest-forms.php not found: de-activating.
+0020.355 () Restore successful!
+0020.356 () Restore successful
